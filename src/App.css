@@ -36,3 +36,80 @@
     transform: rotate(360deg);
   }
 }
+
+
+/*Estilos hechos por mí mismo:*/
+
+body {
+  animation: aparecer 1s ease-in-out;
+}
+
+@keyframes aparecer { /*Esto hace una pequeña animación al entrar a la página web.*/
+  from {
+    opacity: 0;
+    transform: translateY(0.3px);
+  }to{
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+:root {
+  --colorRojo: #d32f2f;
+}
+
+.navbar{
+  background-color: var(--colorRojo);
+}
+
+.nav-link:hover {
+  font-weight: bold;
+}
+
+.navbar-brand {
+  font-style: italic;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+}
+
+.hero{
+  background-image: url("https://wallpapers-clan.com/wp-content/uploads/2024/07/spiderman-swinging-action-desktop-wallpaper-preview.jpg");
+  height: 430px;
+  background-position-y: -96px;
+}
+
+li:hover{
+  text-decoration: underline;
+}
+
+footer{
+  background-color: var(--colorRojo);
+}
+
+.btn{
+  background-color: var(--colorRojo);
+}
+
+.villanos .card:hover { /*Cuando doy hover en una carta dentro de la clase villanos.*/
+  transform: scale(1.04); /*Para agrandar.*/
+  transition: transform 0.3s ease-in-out;
+}
+
+.villanos .card {
+  background-color: #282c34;
+  color: white;
+  text-align: center;
+}
+
+.villanos .card img {
+  height: 355px;
+}
+
+.variantes .card:hover {
+  transform: scale(1.04);
+  transition: transform 0.3s ease-in-out;
+}
+
+.apariciones img {
+  width: 255px;
+}
