@@ -26,6 +26,7 @@ export default function Footer() {
         <div className="text-white">
           <span>&copy; 2026 Alonso Zegarra Velásquez</span>
         </div>
+        <i class="bi bi-envelope-at-fill"></i> zegarrav24@gmail.com
       </div>
     </footer>
   );
