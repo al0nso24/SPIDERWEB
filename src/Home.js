@@ -3,7 +3,7 @@ import { Link } from "react-router";
 export default function Home(){
     return(
         <div>
-            <img src="https://www.syfy.com/sites/syfy/files/2020/08/spider-man-comic-banner.jpg" className="img-fluid" alt="spiderman-banner"></img>
+            <img src="https://www.syfy.com/sites/syfy/files/2020/08/spider-man-comic-banner.jpg" className="img-fluid w-100" alt="spiderman-banner"></img>
             <br></br>
             <div className="container mt-5">
                 <div className="row">
