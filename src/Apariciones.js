@@ -63,7 +63,7 @@ export default function Apariciones(){
                 <div className="container mt-4">
                     <div className="row g-3">
                         <div className="col-12 col-md-5 col-lg-5 col-xl-5 d-flex justify-content-center">
-                            <img src="https://images.hdqwalls.com/download/spiderman-2002-4k-nf-800x1280.jpg" alt="spiderman_2002"></img>
+                            <img src="https://play-lh.googleusercontent.com/MvfGP_wh_Peqm5w0LJEaohuWPItwxkAFoIaj3SeVOc08_OEH468DEGChvF2dCudUj6Xy" alt="spiderman_2002"></img>
                         </div>
                         <div className="col-12 col-md-7 col-lg-7 col-xl-7">
                             <h5 className="fw-bold">Spider-Man (2002)</h5>

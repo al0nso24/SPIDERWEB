@@ -72,12 +72,6 @@ body {
   font-weight: bold;
 }
 
-.hero{
-  background-image: url("https://wallpapers-clan.com/wp-content/uploads/2024/07/spiderman-swinging-action-desktop-wallpaper-preview.jpg");
-  height: 430px;
-  background-position-y: -96px;
-}
-
 li:hover{
   text-decoration: underline;
 }

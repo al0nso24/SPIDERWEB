@@ -3,9 +3,9 @@ import { Link } from "react-router";
 export default function Home(){
     return(
         <div>
-            <div className="hero"></div>
+            <img src="https://www.syfy.com/sites/syfy/files/2020/08/spider-man-comic-banner.jpg" className="img-fluid" alt="spiderman-banner"></img>
             <br></br>
-            <div className="container">
+            <div className="container mt-5">
                 <div className="row">
                     <div className="col-12 col-md-12 col-lg-12 col-xl-12">
                         <h1 className="text-center"><i><b>"Un gran poder conlleva una gran responsabilidad"</b></i></h1>     
